@@ -1,0 +1,35 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Hello World",
+      "description": "This app displays 'Hello World' on the screen",
+      "icon": "https://s3.amazonaws.com/jasonclient/hello.png",
+      "offline": "true",
+      "actions": {
+        "$foreground": {
+          "type": "$reload"
+        },
+        "$pull": {
+          "type": "$reload"
+        }
+      }
+    },
+    "body": {
+      "header": {
+        "title" : "Hallo",
+        "style": {
+          "background": "#ffffff"
+        }
+      },
+      "style": {
+        "background": "#ffffff",
+        "border": "none"
+      },
+      "sections": [
+      ],
+      "footer" : [
+
+      ]
+    }
+  }
+}
